@@ -3,3 +3,4 @@ newspaper3k
 pyTelegramBotAPI
 python-telegram-bot
 telebot
+nltk
