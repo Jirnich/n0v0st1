@@ -1,7 +1,5 @@
-newsapi-python      0.2.6
-newspaper3k         0.2.8
-pyTelegramBotAPI    3.7.4
-python-telegram-bot 13.6
-telebot             0.0.4
-
-
+newsapi-python
+newspaper3k
+pyTelegramBotAPI
+python-telegram-bot
+telebot
