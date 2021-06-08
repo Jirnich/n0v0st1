@@ -1,12 +1,12 @@
 import logging
 import telebot
-
+import nltk
 
 from telegram import (InlineKeyboardButton, InlineKeyboardMarkup, ReplyKeyboardMarkup, ParseMode)
 from telegram.ext import (Updater, CommandHandler, MessageHandler, CallbackQueryHandler, Filters)
 
 from newsfeed import get_newsfeed, get_searchfeed, summarise
-
+nltk.download('punkt')
 
 def main():
     """Погнали."""
