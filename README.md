@@ -38,7 +38,7 @@ KEY = 'key'  # key = ваш ключ newsapi
 
 ### Наглядная инструкция
 
-
+<img src="https://github.com/Jirnich/n0v0st1/blob/main/IMG_20210610_221102_285.gif" height="450" align="center">
 
 ### Команды
 * `/start` Отправляем пользователю топ новостей
