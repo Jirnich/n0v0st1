@@ -6,7 +6,7 @@ from telegram import (InlineKeyboardButton, InlineKeyboardMarkup, ReplyKeyboardM
 from telegram.ext import (Updater, CommandHandler, MessageHandler, CallbackQueryHandler, Filters)
 
 from newsfeed import get_newsfeed, get_searchfeed, summarise
-nltk.download('punkt')Ы
+nltk.download('punkt')
 
 def main():
     """Погнали."""
