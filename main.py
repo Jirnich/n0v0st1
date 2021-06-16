@@ -100,7 +100,7 @@ def news_bulletin(update, context):
                     [InlineKeyboardButton('Читать 5-ю', callback_data='5'),
                      InlineKeyboardButton('Мечта', url='https://i2.paste.pics/CR4BJ.png')]]
 
-        # отправляй наше главное меню
+        # отправляем наше главное меню
         query.edit_message_text(text=message,
                                 reply_markup=InlineKeyboardMarkup(keyboard),
                                 parse_mode=ParseMode.MARKDOWN)
