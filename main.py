@@ -6,7 +6,7 @@ from telegram import (InlineKeyboardButton, InlineKeyboardMarkup, ReplyKeyboardM
 from telegram.ext import (Updater, CommandHandler, MessageHandler, CallbackQueryHandler, Filters)
 
 from newsfeed import get_newsfeed, get_searchfeed, summarise
-nltk.download('punkt')
+nltk.download('punkt')Ы
 
 def main():
     """Погнали."""
@@ -171,7 +171,7 @@ def news_search(update, context):
             message = '*Результаты по запросу "{}":*\n\n'.format(search_query)
             for result in search:
                 (num, url, title) = result
-                message += '{}. {} [Read]({})\n\n'.format(num, title, url)
+                message += '{}. {} [Читать]({})\n\n'.format(num, title, url)
 
             context.bot.send_message(chat_id=update.message.chat.id,
                                      text=message,
